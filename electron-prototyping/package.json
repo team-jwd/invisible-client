@@ -4,12 +4,16 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec mocha-selenium-webdriver.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^3.5.0",
     "electron": "^1.4.2",
-    "express": "^4.14.0"
+    "electron-chromedriver": "^1.4.0",
+    "express": "^4.14.0",
+    "mocha": "^3.1.0",
+    "selenium-webdriver": "^3.0.0-beta-3"
   }
 }

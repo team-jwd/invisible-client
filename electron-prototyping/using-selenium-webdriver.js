@@ -1,7 +1,6 @@
 const webdriver = require('selenium-webdriver')
 const {By, until} = webdriver;
 const path = require('path')
-const expect = require('chai').expect
 
 const driver = new webdriver.Builder()
   .usingServer('http://localhost:9515')

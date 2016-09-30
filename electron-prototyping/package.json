@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec using-selenium-webdriver.js"
+    "test": "./node_modules/.bin/mocha --reporter spec mocha-selenium-webdriver.js"
   },
   "author": "",
   "license": "ISC",

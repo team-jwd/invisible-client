@@ -1,0 +1,22 @@
+{
+  "name": "invisible-client",
+  "version": "1.0.0",
+  "description": "An invisible client for testing WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-jwd/invisible-client.git"
+  },
+  "author": "William Barnes, Daniel King, JC Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-jwd/invisible-client/issues"
+  },
+  "homepage": "https://github.com/team-jwd/invisible-client#readme",
+  "dependencies": {
+    "electron": "^1.4.2"
+  }
+}
